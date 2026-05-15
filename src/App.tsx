@@ -71,7 +71,7 @@ const SubtleGalaxy = () => {
 };
 
 const TransparentAvatar = () => {
-  const texture = useLoader(THREE.TextureLoader, '/avatar.png');
+  const texture = useLoader(THREE.TextureLoader, avatarImg);
   return (
     <Float speed={2} floatIntensity={0.5} rotationIntensity={0.05}>
       <mesh position={[0, 0, 0]}>
