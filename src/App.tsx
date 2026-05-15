@@ -212,7 +212,10 @@ const TypewriterText = ({ text, delay = 0 }: { text: string, delay?: number }) =
 
 export default function App() {
   const urlParams = new URLSearchParams(window.location.search);
-  const guestName = urlParams.get('name') || 'KHÁCH QUÝ';
+  const guestName = urlParams.get('name') || 'bạn';
+  const pronoun = urlParams.get('pronoun') || 'bạn';
+
+  const invitationText = `Hello ${guestName}, ngày 29/05 tới đây mình sẽ nhận bằng tốt nghiệp tại sảnh A, trường Đại học Tôn Đức Thắng. Mời ${pronoun} đến dự lễ và chụp với mình vài tấm hình kỷ niệm nhó. Cảm ơn ${pronoun} đã giúp đỡ mình trong suốt 4 năm học vừa qua. Rất mong ${pronoun} đến với buổi tốt nghiệp để Huy có thể chia sẻ niềm vui này với mọi người nhé!`;
 
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -280,7 +283,7 @@ export default function App() {
         <div className="bottom-section stagger-3">
           <div className="thank-you-typing">
             <p className="tech-text">
-              <TypewriterText text="Cảm ơn bạn đã đồng hành cùng hành trình của mình. Sự hiện diện của bạn là mảnh ghép hoàn hảo nhất cho ngày vui này!" delay={1500} />
+              <TypewriterText text={invitationText} delay={1500} />
             </p>
           </div>
 
