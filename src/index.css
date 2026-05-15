@@ -209,11 +209,11 @@ html,
 }
 
 .tech-text {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   font-weight: 700;
   color: #ffffff;
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.5;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   letter-spacing: 0.5px;
 }
@@ -326,5 +326,14 @@ html,
 
   .guest-hud {
     margin-top: 150px;
+  }
+
+  .tech-text {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .thank-you-typing {
+    padding: 15px 20px;
   }
 }
