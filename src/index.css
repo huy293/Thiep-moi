@@ -302,39 +302,59 @@ html,
 
 @media (max-width: 768px) {
   .ui-overlay {
-    padding: 20px;
+    padding: 15px;
+    justify-content: space-between;
   }
   
   .glitch-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
   }
   
   .host-name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    margin-top: 5px;
   }
   
   .info-cards {
-    flex-direction: column;
+    flex-direction: row; /* Tránh nằm dọc gây tốn chiều cao */
     gap: 15px;
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 12px 15px;
+    width: 100%;
+    justify-content: center;
   }
 
   .info-divider {
-    width: 100%;
-    height: 1px;
+    width: 1px;
+    height: 30px;
   }
 
   .guest-hud {
-    margin-top: 150px;
+    margin-top: 60px; /* Đẩy tên người dùng lên cao hơn */
+    padding: 8px 15px;
+    gap: 10px;
+  }
+  
+  .guest-name {
+    font-size: 1.4rem;
   }
 
   .tech-text {
-    font-size: 0.85rem;
-    line-height: 1.4;
+    font-size: 0.8rem;
+    line-height: 1.45;
   }
 
   .thank-you-typing {
-    padding: 15px 20px;
+    padding: 12px 15px;
+  }
+  
+  .info-box .details p {
+    font-size: 0.8rem;
+  }
+  
+  .info-box .icon {
+    font-size: 1.2rem;
   }
 }
