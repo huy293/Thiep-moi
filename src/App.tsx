@@ -215,7 +215,7 @@ export default function App() {
   const guestName = urlParams.get('name') || 'bạn';
   const pronoun = urlParams.get('pronoun') || 'bạn';
 
-  const invitationText = `Hello ${guestName}, ngày 29/05 tới đây mình sẽ nhận bằng tốt nghiệp tại sảnh A, trường Đại học Tôn Đức Thắng. Mời ${pronoun} đến dự lễ và chụp với mình vài tấm hình kỷ niệm nhó. Cảm ơn ${pronoun} đã giúp đỡ mình trong suốt 4 năm học vừa qua. Rất mong ${pronoun} đến với buổi tốt nghiệp để Huy có thể chia sẻ niềm vui này với mọi người nhé!`;
+  const invitationText = `Hello ${guestName}, ngày 29/05 tới đây mình sẽ nhận bằng tốt nghiệp tại sảnh A, trường Đại học Tôn Đức Thắng. Mời ${pronoun} đến dự lễ và chụp với mình vài tấm hình kỷ niệm nhó.\n\nCảm ơn ${pronoun} đã giúp đỡ mình trong suốt 4 năm học vừa qua. Rất mong ${pronoun} đến với buổi tốt nghiệp để Huy có thể chia sẻ niềm vui này với mọi người nhé!`;
 
   const [isLoaded, setIsLoaded] = useState(false);
 

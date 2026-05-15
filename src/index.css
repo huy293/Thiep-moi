@@ -198,24 +198,25 @@ html,
 }
 
 .thank-you-typing {
-  max-width: 600px;
-  text-align: center;
+  max-width: 650px;
+  text-align: left;
   background: rgba(2, 5, 12, 0.85);
   backdrop-filter: blur(12px);
-  padding: 20px 30px;
+  padding: 15px 25px;
   border-radius: 15px;
   border: 1px solid rgba(0, 255, 255, 0.3);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(0, 255, 255, 0.1);
 }
 
 .tech-text {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #ffffff;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.6;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   letter-spacing: 0.5px;
+  white-space: pre-wrap;
 }
 
 .blink-cursor {
