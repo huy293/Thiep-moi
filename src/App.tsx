@@ -4,6 +4,7 @@ import { Float, Stars, Sparkles } from '@react-three/drei';
 import { EffectComposer, Bloom, Vignette } from '@react-three/postprocessing';
 import * as THREE from 'three';
 import './index.css';
+import avatarImg from './assets/avatar.png';
 
 const CameraRig = () => {
   useFrame((state) => {
